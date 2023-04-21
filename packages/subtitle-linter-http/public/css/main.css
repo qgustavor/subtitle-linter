@@ -1,0 +1,54 @@
+/* ==========================================================================
+  Application specific styling
+  ========================================================================== */
+
+.app > * {
+  padding: 0.5rem 1rem;
+}
+
+.header-divisor {
+  height: 1px;
+  width: 100%;
+  background-image: linear-gradient(90deg,#5755d9,#3b4351);
+  padding: 0;
+}
+
+.task-view .card-title.h5 {
+  white-space: pre-wrap;
+}
+
+.diff-view pre.code {
+  margin-top: 0;
+}
+
+.diff-view code {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.file-title {
+	position: sticky;
+	top: 0;
+	background: white;
+	padding: 0.5em 0;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.file-title > span {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+pre .bg-primary {
+  width: fit-content;
+}
+
+.scrollable-group {
+  max-height: 11.5em;
+  overflow-y: scroll;
+  background: #0001;
+}

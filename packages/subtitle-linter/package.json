@@ -1,0 +1,23 @@
+{
+  "name": "subtitle-linter",
+  "version": "1.0.0",
+  "description": "Linter for ASS subtitles",
+  "main": "index.js",
+  "bin": "bin/cli.js",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "standard"
+  },
+  "author": "qgustavor (https://qgustavor.tk)",
+  "license": "ISC",
+  "dependencies": {
+    "@qgustavor/ass-parser": "^0.5.0",
+    "fast-levenshtein": "^2.0.6",
+    "glob": "^7.1.4",
+    "libjass": "^0.11.0",
+    "node-fetch": "^2.6.9",
+    "promise-parallel-throttle": "^3.3.0",
+    "regex-parser": "^2.2.10",
+    "yargs": "^13.2.4"
+  }
+}

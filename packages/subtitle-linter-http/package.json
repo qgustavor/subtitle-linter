@@ -1,0 +1,19 @@
+{
+  "name": "subtitle-linter-http",
+  "version": "1.0.0",
+  "description": "HTTP server and GUI for Subtitle Linter",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "glob": "^10.2.1",
+    "sse-channel": "^4.0.0",
+    "string-natural-compare": "^3.0.1",
+    "subtitle-linter": "file:../subtitle-linter"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ayashi",
+  "license": "ISC"
+}
